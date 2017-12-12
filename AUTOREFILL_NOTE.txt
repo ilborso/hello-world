@@ -1,0 +1,24 @@
+	java.naming.factory.initial=weblogic.jndi.WLInitialContextFactory;java.naming.provider.url=t3://htcxv117-priv:8001,htcxv118-priv:8001,htcxv117-priv:8002,htcxv118-priv:8002;java.naming.security.principal=jmsuser;java.naming.security.credentials=w3bl0g1cpr0d
+	
+	
+	
+eis/wls/AutoRefillQueue: 
+java.naming.factory.initial=weblogic.jndi.WLInitialContextFactory;java.naming.provider.url=t3://htcxv117-priv:8001,htcxv118-priv:8001,htcxv117-priv:8002,htcxv118-priv:8002;java.naming.security.principal=jmsuser;java.naming.security.credentials=w3bl0g1cpr0d
+
+eis/wls/CreatePeriodQueue
+locale
+
+eis/wls/DoRefillQueueConnectionPool
+java.naming.factory.initial=weblogic.jndi.WLInitialContextFactory;java.naming.provider.url=t3://htcxv117-priv:8001,htcxv118-priv:8001,htcxv117-priv:8002,htcxv118-priv:8002;java.naming.security.principal=jmsuser;java.naming.security.credentials=w3bl0g1cpr0d
+
+eis/wls/InsUpdReprocessConnectionPool
+java.naming.factory.initial=weblogic.jndi.WLInitialContextFactory;java.naming.provider.url=t3://htcxv117-priv:8001,htcxv118-priv:8001,htcxv117-priv:8002,htcxv118-priv:8002;java.naming.security.principal=jmsuser;java.naming.security.credentials=w3bl0g1cpr0d
+
+eis/wls/RefillErrorQueueConnectionPool
+java.naming.factory.initial=weblogic.jndi.WLInitialContextFactory;java.naming.provider.url=t3://htcxv117-priv:8001,htcxv118-priv:8001,htcxv117-priv:8002,htcxv118-priv:8002;java.naming.security.principal=jmsuser;java.naming.security.credentials=w3bl0g1cpr0d
+
+eis/wls/TriggerRefillQueueConnectionPool
+java.naming.factory.initial=weblogic.jndi.WLInitialContextFactory;java.naming.provider.url=t3://htcxv117-priv:8001,htcxv118-priv:8001,htcxv117-priv:8002,htcxv118-priv:8002;java.naming.security.principal=jmsuser;java.naming.security.credentials=w3bl0g1cpr0d
+
+eis/wls/TriggerSMSQueueConnectionPool
+java.naming.factory.initial=weblogic.jndi.WLInitialContextFactory;java.naming.provider.url=t3://htcxv117-priv:8001,htcxv118-priv:8001,htcxv117-priv:8002,htcxv118-priv:8002;java.naming.security.principal=jmsuser;java.naming.security.credentials=w3bl0g1cpr0d
